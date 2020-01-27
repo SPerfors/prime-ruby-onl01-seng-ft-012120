@@ -4,7 +4,7 @@ def prime?(x)
   elsif x <= 3
     return true
   else (2..x/2).none? do |y|
-    n % y == 0
+    x % y == 0
   end
   end
 end
