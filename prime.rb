@@ -1,2 +1,2 @@
 def prime(x)
-  
+  if 
